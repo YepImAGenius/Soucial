@@ -2,6 +2,6 @@ SOUCIAL
 ========
 an open source social network
 
-//Write down here all your ideas
-//Separe it witha -
-//Like -New idea
+//Write down here all your ideas<br/>
+//Separe it with a -<br/>
+//Like -New idea<br/>
