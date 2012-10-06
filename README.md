@@ -13,3 +13,5 @@ an open source social network
 - Share wikipedia articles
 - Javascript bookmarklet for sharing photo/video/article/ecc...
 - iPhone/Android app
+- Chrome app
+- Web app for iPhone/iPad
