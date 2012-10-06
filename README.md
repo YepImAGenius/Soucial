@@ -8,4 +8,8 @@ an open source social network
 
 - Instagram & Youtube for sharing a photo/video
 - Lkd.to for the user's social links
-- Dribbble / GitHub / Behance integration
+- Dribbble / GitHub / Behance integration 
+- HTML into status
+- Share wikipedia articles
+- Javascript bookmarklet for sharing photo/video/article/ecc...
+- iPhone/Android app
