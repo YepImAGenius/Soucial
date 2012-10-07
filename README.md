@@ -15,3 +15,5 @@ an open source social network
 - iPhone/Android app
 - Chrome app
 - Web app for iPhone/iPad
+- Responsive site
+- Add Twitter/Facebook synchronisation
