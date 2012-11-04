@@ -1,4 +1,116 @@
-/* And that's the css for the style of some elements */
+/* #SWAG #YOLO */
+/* font-;-) */
+@font-face{
+ font-family: "font";
+ src: url("NOTCSS/font.ttf");
+}
+
+*{/* A little reset */
+ margin: 0;
+ padding: 0;
+}
+*:focus{
+ outline: none;
+}
+
 body{
- background: url("NOTCSS/back.png");
+ position: relative;
+ font-family: "font";
+ -webkit-font-smoothing: antialiased;
+}
+
+.backs,.back{
+ position: fixed;
+ width: 100%;
+ display: none;
+}
+.backs.one{
+ z-index: 9999;
+}
+.backs.two{
+ z-index: 8888;
+}
+.backs.three{
+ z-index: 7777;
+}
+.backs.four{
+ z-index: 6666;
+}
+.back.first{
+ z-index: 5555;
+}
+
+.content{
+ position:absolute;
+ z-index: 9999999999;
+ width: 100%;
+}
+.content form{
+ margin: 0 auto;
+ width: 35%;
+ margin-top: 15%;
+}
+.content form section{
+ position: relative;
+ width: 100%;
+}
+.content form input[type=text],.content form input[type=password]{
+ position: asbolute;
+ width: 100%;
+ text-align: center;
+ padding: 0.5em 0 0.5em 0;
+ font-size: 2.5em;
+ margin-top: -1px;
+ margin-left: -1px;
+ margin-bottom: -1px;
+ text-shadow: 0 3px 8px rgba(44,34,9,0.5);
+ cursor: pointer;
+ -webkit-transition: background 1s;
+}
+.content form input[type=password]{
+ margin-top: 0;
+}
+.content form input[type=submit]{
+ width: 50.18%;
+ text-align: center;
+ padding: 0.5em;
+ font-size: 2.5em;
+ border-top: 0;
+ border-bottom: 0;
+ text-shadow: 0 3px 8px rgba(44,34,9,0.5);
+ cursor: pointer;
+}
+.content form input[type=submit]:first-child{
+ margin-left: -1px;
+}
+.content form input[type=submit]:last-child{
+ margin-left: -5px;
+ border-right: 0;
+}
+.content form input{
+ -webkit-transition: background 0.2s;
+}
+.content form input.brown{
+ text-shadow: 0 3px 8px rgba(44,34,9,0.5);
+}
+.content form input.brown.light:hover,.content form input.brown.light:focus{
+ background: rgba(109,87,33,0.8);
+}
+.content form input.brown.dark:hover,.content form input.brown.dark:focus{
+ background: rgba(64,50,16,0.5);
+}
+.content form input.green{
+ text-shadow: 0 3px 8px rgba(22,61,13,0.5);
+}
+.content form input.green.light:hover,.content form input.green.light:focus{
+ background: rgba(49,131,30,0.6);
+}
+.content form input.green.dark:hover,.content form input.green.dark:focus{
+ background: rgba(36,89,22,0.5);
+}
+.content form input.red{
+ text-shadow: 0 3px 8px rgba(76,20,20,0.5);
+}
+.content form input.red.light:hover,.content form input.red.light:focus{
+ background: rgba(160,60,60,0.6);
 }
